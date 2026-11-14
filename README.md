@@ -1,23 +1,31 @@
-# Pabusingh Rathore — Portfolio
+# Pabusingh Rathore — Developer Portfolio
 
-Responsive portfolio built with plain HTML, CSS and JavaScript. No framework or build step required.
+A responsive personal developer portfolio built with plain HTML, CSS and JavaScript. No framework or build step is required.
 
-## Preview
-Open `index.html` in a browser. Internet access is needed for the selected Google Fonts; system fallbacks are included.
+## Contents
 
-## Publish free with GitHub Pages
-1. Create a public repository named `logicsingh.github.io`.
-2. Upload `index.html`, `styles.css` and `script.js` to the repository root.
-3. Open **Settings → Pages**.
-4. Select **Deploy from a branch**, choose `main` and `/ (root)`, then save.
-5. When published, the address will be `https://logicsingh.github.io/`.
+- `index.html` — portfolio content, projects, education and contact details
+- `styles.css` — responsive layout and visual design
+- `script.js` — mobile navigation interaction
 
-## Before publishing
-- Confirm the email and social URLs are current.
-- Check every project description against the actual implementation.
-- Add additional repository/demo links only after confirming they work.
-- Add a resume PDF link after placing the final PDF in the repository.
-- The MCA percentage is intentionally omitted; include it only if an application specifically asks.
+## Run locally
+
+Open `index.html` in a browser. An internet connection is needed for the selected Google Fonts; system font fallbacks are included.
+
+## Publish with GitHub Pages
+
+1. Open the repository's **Settings → Pages**.
+2. Under **Build and deployment**, select **Deploy from a branch**.
+3. Choose `main` and `/ (root)`, then save.
+4. Wait for the Pages deployment to finish and use the URL shown in Settings → Pages.
+
+## Before sharing
+
+- Check that contact and social links are current.
+- Keep project descriptions aligned with features that have actually been implemented and tested.
+- Add source-code and demo links only after verifying that they are public and working.
+- Add a downloadable resume only after the final PDF is ready.
 
 ## Customize
-Edit content in `index.html`; change the palette in the `:root` section of `styles.css`.
+
+Edit the content in `index.html` and the design tokens near the top of `styles.css`.
